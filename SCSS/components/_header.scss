@@ -1,0 +1,21 @@
+.header{
+    display: nth($display-form , 1);
+    flex-wrap: wrap;
+    align-items: map-get($posicion-content , cent);
+    justify-content: map-get($posicion-content , spc-between);
+    position: sticky;
+    top: 0;
+        
+    @include pad-marg($pad-header, $marg-header);
+    a {
+        text-decoration: none;
+        color: map-get($colores , alink);
+    }
+}
+.header-logo{
+    color: map-get($colores , fontmaincolor);
+    filter: drop-shadow(3px 3px 4px map-get($colores , shadowcolor));
+}
+#header-logo-xs{
+    display: nth($display-form , 3);
+}

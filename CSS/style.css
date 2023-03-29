@@ -1,0 +1,107 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  padding: 20px 150px 0 150px;
+  margin: 0 auto;
+}
+.header a {
+  text-decoration: none;
+}
+
+.header-logo {
+  filter: drop-shadow(3px 3px 4px);
+}
+
+#header-logo-xs {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+body {
+  background-color: lightcyan;
+}
+body navbar-mia {
+  background-color: lightblue;
+  font-weight: 800;
+  font-family: roboto;
+}
+body navbar-mia btn-mio:hover {
+  background-color: violet;
+  color: blue;
+}
+body navbar-mia btn-mio:hover img-mia {
+  margin-top: 0;
+  padding: 15px;
+  width: 750px;
+  height: 600px;
+}
+body navbar-mia btn-mio:hover img-mia h1-mio {
+  margin-top: 40px;
+  padding: 15px;
+  font-family: Roboto;
+  font-size: x-large;
+  font-weight: bold;
+}
+body navbar-mia btn-mio:hover img-mia h1-mio h5-mio {
+  background-color: aqua;
+  color: black;
+}
+body navbar-mia btn-mio:hover img-mia h1-mio h5-mio img-ctt {
+  width: 400px;
+  height: 250px;
+  margin-bottom: 250px;
+}
+
+.navbar-mia {
+  background-color: lightblue;
+  font-weight: 800;
+  font-family: Roboto;
+}
+
+.btn-mio:hover {
+  background-color: violet;
+  color: blue;
+}
+
+body {
+  background-color: lightseagreen;
+  background-repeat: no-repeat;
+}
+
+.img-mia {
+  margin-top: 0px;
+  padding: 15px;
+  width: 750px;
+  height: 600px;
+}
+
+.img-mia:hover{
+  transform: scale(1.1);
+}
+
+.h1-mio {
+  margin-top: 40px;
+  padding: 15px;
+  font-family: Roboto;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.h5-mio {
+  background-color: aqua;
+  color: black;
+}
+
+.img-ctt {
+  width: 400px;
+  height: 250px;
+  margin-bottom: 250px;
+}
+.pp:hover{
+  color: rebeccapurple;
+}
