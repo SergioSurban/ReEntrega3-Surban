@@ -3,8 +3,9 @@
 @import './base/_mixin.scss';
 @import './base/_listas.scss';
 @import './base/_maps.scss';
+@import './base/_extend.scss';
 
 // componentes
 @import './components/_navbar.scss';
-@import './components/_header.scss';
-
+@import './components/_titles.scss';
+@import './components/_carru.scss';
