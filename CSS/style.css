@@ -22,7 +22,7 @@
   font-family: Roboto;
   font-size: x-large;
   font-weight: bold;
-  display: flex;
+  justify-content: center;
 }
 
 .carru1 {
@@ -33,4 +33,7 @@
   margin: 0;
 }
 
+.img-ctt:hover{
+  scale: 1.25;
+}
 /*# sourceMappingURL=style.css.map */
